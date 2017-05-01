@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  height: 40px;
+  padding: 20px;
+  color: gray;
+}
+
+.App-intro {
+  font-size: smaller;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.search {
+  height: 30px;
+  width: 300px;
+  margin-top: 16px;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  min-width: 600px;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.flex-item {
+  background: white;
+  padding: 0px 0px 0px 5px;
+  flex-grow: 1;
+  flex-basis: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 40px;
+  margin: 4px;
+  margin-right: -4px;
+
+  line-height: 40px;
+  color: darkgray;
+  font-size: 13px;
+  text-align: left;
+}
+
+.sortAndSearch {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e0dede;
+  color: white;
+  height: 70px;
+  padding-right: 475px;
+  width: auto;
+  flex-flow: wrap;
+}
+
+.emails {
+  padding-right: 50px;
+  padding-bottom: 8px;
+  background-color: #f4f2f2;
+}
+
+.labels {
+  color: black;
+  font-weight: bold;
+  background-color: #f4f2f2;
+  flex-grow: 1;
+  width: 75px;
+}
+
+.organize {
+  color: black;
+  font-weight: bold;
+  background-color: #f4f2f2;
+  flex-grow: 0;
+  width: 75px;
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.entrydetails {
+  font-family: serif;
+}
+
+.colorlabel {
+  float: right;
+  width: 8px;
+  height: inherit;
+}
